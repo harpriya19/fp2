@@ -1,0 +1,15 @@
+body{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+h1{
+ color: rgb(80, 58, 179);
+font-size: 50px;
+}
+p{
+color: #56399b;
+font-size: 30px;
+}
+label{
+    font-size: 20px;
+    color: #56399b;
+}

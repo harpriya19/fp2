@@ -1,0 +1,57 @@
+<html>
+    <head>
+    <title>Family project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body>
+    <center>
+        <br>
+        <br>
+    <h1 
+    ">Face identification web app</h1>
+    <br>
+    <br>
+    <br>
+    <p>
+        Model is trained to identify the following members
+    </p>
+    <br>
+    <br>
+    <label >Mother</label>
+    <br>
+    <hr>
+    <label >Father</label>
+    <br>
+    <hr>
+    <label >Brother</label>
+    <br>
+    <hr>
+    <label >Sister</label>
+    <br>
+    <br>
+    <hr>
+    <div id="camera"></div>
+    <br>
+    <div id="result">
+    </div>
+    <br>
+    <button class="btn btn-primary" onclick="take_snapshot()">Capture image</button>
+    <br>
+    <br>
+    <button class="btn btn-danger" onclick="check()">Identify image</button>
+    <h2 >Member- </h1><span id="member_name"></span>
+    <h2 >Accuracy-</h1><span id="accuray"></span>
+</center>
+<script src="main.js"></script>
+
+</body>
+</html>
